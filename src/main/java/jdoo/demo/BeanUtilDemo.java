@@ -1,7 +1,7 @@
-package com.ctt.jdoo.demo;
+package jdoo.demo;
 
-import com.ctt.jdoo.demo.vo.Group;
-import com.ctt.jdoo.demo.vo.User;
+import jdoo.demo.vo.Group;
+import jdoo.demo.vo.User;
 import jodd.bean.BeanCopy;
 import jodd.bean.BeanUtil;
 import jodd.json.JsonSerializer;

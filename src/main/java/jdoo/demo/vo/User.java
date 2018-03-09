@@ -1,4 +1,4 @@
-package com.ctt.jdoo.demo.vo;
+package jdoo.demo.vo;
 
 public class User {
     private Integer id;

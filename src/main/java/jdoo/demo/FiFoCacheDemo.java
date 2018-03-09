@@ -1,4 +1,4 @@
-package com.ctt.jdoo.demo;
+package jdoo.demo;
 
 import jodd.cache.FIFOCache;
 import jodd.log.Logger;

@@ -1,7 +1,6 @@
-package com.ctt.jdoo.demo;
+package jdoo.demo;
 
 import jodd.cache.LFUCache;
-import jodd.cache.LRUCache;
 import jodd.log.Logger;
 import jodd.log.LoggerFactory;
 import jodd.log.impl.SimpleLogger;
