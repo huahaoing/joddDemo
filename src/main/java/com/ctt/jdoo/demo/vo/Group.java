@@ -1,4 +1,4 @@
-package com.ctt.jdoo.demo.bean.vo;
+package com.ctt.jdoo.demo.vo;
 
 import java.util.List;
 
@@ -11,16 +11,8 @@ public class Group {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public String getGroupName() {
         return groupName;
-    }
-
-    public void setGroupName(String groupName) {
-        this.groupName = groupName;
     }
 
     public List<User> getUserList() {
@@ -29,5 +21,14 @@ public class Group {
 
     public void setUserList(List<User> userList) {
         this.userList = userList;
+    }
+
+    @Override
+    public String toString() {
+        return "Group{" +
+                "id=" + id +
+                ", groupName='" + groupName + '\'' +
+                ", userList=" + userList +
+                '}';
     }
 }

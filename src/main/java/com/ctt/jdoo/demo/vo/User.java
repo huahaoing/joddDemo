@@ -1,4 +1,4 @@
-package com.ctt.jdoo.demo.bean.vo;
+package com.ctt.jdoo.demo.vo;
 
 public class User {
     private Integer id;
@@ -23,5 +23,13 @@ public class User {
     public User(Integer id, String userName) {
         this.id = id;
         this.userName = userName;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                '}';
     }
 }
