@@ -1,7 +1,12 @@
 package jdoo.demo.vo;
 
+import jodd.vtor.constraint.MaxLength;
+import jodd.vtor.constraint.Min;
+
 public class User {
+    @Min(value = 10,message = "超过下限")
     private Integer id;
+    @MaxLength(value = 20,message = "长度超限")
     private String userName;
 
     public Integer getId() {
